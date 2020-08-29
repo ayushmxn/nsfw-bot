@@ -1,10 +1,10 @@
-# nsfw
+# NSFW Bot
 
 Created a barebones Discord Bot using the [DigitalOcean Tutorial](https://www.digitalocean.com/community/tutorials/how-to-build-a-discord-bot-with-node-js).
 
 ## Getting Started
 
-### Environment Setup
+### Setup
 
 Create a ```config.json``` in the project directory:    
 
