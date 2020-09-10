@@ -3,20 +3,29 @@ const config = require("./config");
 
 const client = new Discord.Client();
 
-const prefix = "!";
+const prefix = "!auto";
 
-client.on("message", function (message) {1
+client.on("message", function (message) {
+  console.log(message);
+  // Exit if author is a bot
   if (message.author.bot) return;
-  if (!message.content.startsWith(prefix)) return;
+  msg = message.content.split(' ');
 
-  const commandBody = message.content.slice(prefix.length);
-  const arguments = commandBody.split(' ');
-  const command = arguments.shift().toLowerCase();
+  if (msg[0] !== prefix) return;
 
-  if (command === "ping") {
-    const timeTaken = Date.now() - message.createdTimestamp;
-    message.reply(`Pong! This message had a latency of ${timeTaken}ms.`);
+  if (msg[0] === prefix) {
+    if (msg[1] === 'help') {
+      message.reply("Auto Bot is a meant to automate a lot of repetative tasks. This bot is currently under development. If you find yourself doing something over and over again, open an issue (https://github.com/ayushmxn/auto-bot/issues).");
+    }
+    else {
+      message.reply(`Invalid command. Check the documentation (https://github.com/ayushmxn/auto-bot/issues) for valid list of commands.`);
+    }
   }
+
+  else {
+    message.reply("Invalid command. Look at https://github.com/ayushmxn/auto-bot/blob/master/README.md for how to use different commands.");
+  }
+
 });
 
 client.login(config.BOT_TOKEN);
