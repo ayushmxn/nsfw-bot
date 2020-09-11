@@ -7,7 +7,6 @@ Auto Bot is meant to automate a lot of repetative tasks.
 ### Setup
 
 Rename the ```config-sample.json``` to ```config.json``` in the project directory, add the bot token and desired prefix.    
-```    
 
 Follow the [DigitalOcean Tutorial](https://www.digitalocean.com/community/tutorials/how-to-build-a-discord-bot-with-node-js) on how to setup a basic bot.
 
