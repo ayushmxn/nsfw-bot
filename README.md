@@ -1,19 +1,12 @@
 # Auto Bot
 
-Bot for STEM Labs
+Auto Bot is meant to automate a lot of repetative tasks.
 
 ## Getting Started
 
 ### Setup
 
-Create a ```config.json``` in the project directory:    
-
-```json
-
-{
-  "BOT_TOKEN": ""
-}
-
+Rename the ```config-sample.json``` to ```config.json``` in the project directory, add the bot token and desired prefix.    
 ```    
 
 Follow the [DigitalOcean Tutorial](https://www.digitalocean.com/community/tutorials/how-to-build-a-discord-bot-with-node-js) on how to setup a basic bot.
@@ -28,11 +21,12 @@ Follow the [DigitalOcean Tutorial](https://www.digitalocean.com/community/tutori
 
 ### Usage
 
-Start every command with ```!auto```.    
+For these example, let's assume our prefix is set to ```!auto```.    
 
-Command | Arguments | Examples  
+Command | Arguments | Description
 ------- | --------- | --------
-help | | !auto help
+help | | Gives a summary of commands used with their description, similar to this table.
+about | | A description of the Auto Bot.
 
 ### References
 
@@ -40,4 +34,4 @@ help | | !auto help
 
 ### Contributing
 
-Issues and pull requests in the form of bug fixes, new automation commands are welcome.
+Create an issue. Let's go from there.
