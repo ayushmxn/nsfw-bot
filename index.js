@@ -7,7 +7,6 @@ const prefix = "!auto";
 
 client.on("message", function (message) {
   console.log(message);
-  // Exit if author is a bot
   if (message.author.bot) return;
   msg = message.content.split(' ');
 

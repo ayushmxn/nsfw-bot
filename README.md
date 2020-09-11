@@ -34,6 +34,10 @@ Command | Arguments | Examples
 ------- | --------- | --------
 help | | !auto help
 
+### References
+
+[Discord.js](https://discord.js.org) library which allows you to interact with the [Discord API](https://discord.com/developers/docs/intro).
+
 ### Contributing
 
 Issues and pull requests in the form of bug fixes, new automation commands are welcome.
