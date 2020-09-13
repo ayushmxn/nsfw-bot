@@ -3,7 +3,7 @@ const config = require("./config");
 
 const client = new Discord.Client();
 
-const prefix = "!" + config.PREFIX;
+const prefix = config.PREFIX;
 
 client.on("message", function (message) {
   msg = message.content.split(' ');
@@ -14,15 +14,15 @@ client.on("message", function (message) {
 
   if (msg[0] === prefix) {
     if (msg[1] === "help") {
-      message.reply("Here is a list of commands starting with the help command itself.");
+      message.reply("Refer to the documentation (https://github.com/ayushmxn/auto-bot/blob/master/.github/DOCUMENTATION.md). If you find yourself doing repetitive task(s) not covered by the Auto Bot, open an issue on it's Github (https://github.com/ayushmxn/auto-bot/issues).");
       return;
     }
     if (msg[1] === "about") {
-      message.reply("Auto Bot is meant to automate a lot of repetative tasks. If you find yourself doing some repetitive tasks which is not done by Auto Bot, open an issue on it's GitHub (https://github.com/ayushmxn/auto-bot/issues). Note: This bot is currently under development, hence, one cannot directly add this bot to a server.");
+      message.reply("Auto Bot is meant to automate a lot of repetative tasks. Note: This bot is currently under development, hence, some extra steps (https://github.com/ayushmxn/auto-bot/blob/master/.github/DOCUMENTATION.md#setup) are required for you to add it to your server.");
       return;
     }
     else {
-      message.reply("It seems you may have given an invalid command. You may refer to the examples in the usage section (https://github.com/ayushmxn/auto-bot/blob/master/README.md).");
+      message.reply("It seems you may have given an invalid command. Refer to the examples in the usage section (https://github.com/ayushmxn/auto-bot/blob/master/.github/DOCUMENTATION.md#usage).");
       return;
     }
   }

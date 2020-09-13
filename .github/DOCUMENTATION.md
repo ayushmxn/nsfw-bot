@@ -4,7 +4,7 @@
 
 Rename the ```config-sample.json``` to ```config.json``` in the project directory, add the bot token and desired prefix.    
 
-Follow the [DigitalOcean Tutorial](https://www.digitalocean.com/community/tutorials/how-to-build-a-discord-bot-with-node-js) on how to setup a basic bot.
+Read through the [DigitalOcean Tutorial](https://www.digitalocean.com/community/tutorials/how-to-build-a-discord-bot-with-node-js) to get a basic understanding of how Discord bots work.
 
 ## Scripts
 
