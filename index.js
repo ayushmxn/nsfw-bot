@@ -1,9 +1,14 @@
+require('dotenv').config();
+
+const express = require('express');
+const app = express();
+const port = 3000;
+app.get((request, response) => { response.send('Auto Bot says hi.') });
+app.listen(port, () => console.log(`Auto Bot is listening at port ${port}`));
+
 const Discord = require("discord.js");
-const config = require("./config");
-
 const client = new Discord.Client();
-
-const prefix = config.PREFIX;
+const prefix = "!auto";
 
 client.on("message", function (message) {
   msg = message.content.split(' ');
@@ -29,4 +34,4 @@ client.on("message", function (message) {
 
 });
 
-client.login(config.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);

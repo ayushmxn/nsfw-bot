@@ -2,9 +2,11 @@
 
 ## Setup
 
-Rename the ```config-sample.json``` to ```config.json``` in the project directory, add the bot token and desired prefix.    
+Rename the ```.env-sample``` to ```.env``` in the project directory and add your unique bot token.   
 
 Read through the [DigitalOcean Tutorial](https://www.digitalocean.com/community/tutorials/how-to-build-a-discord-bot-with-node-js) to get a basic understanding of how Discord bots work.
+
+Read through [Hosting a Discord Bot on Repl.it](https://dev.to/fizal619/so-you-want-to-make-a-discord-bot-4f0n) to understand why we use the ```.env``` file and ```express``` package. 
 
 ## Scripts
 
@@ -18,9 +20,7 @@ Read through the [DigitalOcean Tutorial](https://www.digitalocean.com/community/
 
 [Discord.js](https://discord.js.org) library which allows you to interact with the [Discord API](https://discord.com/developers/docs/intro).
 
-## Usage
-
-For these examples, let's assume our prefix is set to ```!auto```.    
+## Usage   
 
 Command | Arguments | Description
 ------- | --------- | --------
