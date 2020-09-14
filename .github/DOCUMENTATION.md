@@ -1,16 +1,18 @@
 # Documentation
 
-## Setup
+## Project Setup
 
-Rename the ```.env-sample``` to ```.env``` in the project directory and add your unique bot token.   
+### Tutorial References
 
 Read through the [DigitalOcean Tutorial](https://www.digitalocean.com/community/tutorials/how-to-build-a-discord-bot-with-node-js) to get a basic understanding of how Discord bots work.
 
-Read through [Hosting a Discord Bot on Repl.it](https://dev.to/fizal619/so-you-want-to-make-a-discord-bot-4f0n) to understand why we use the ```.env``` file and ```express``` package. 
+Read through [Hosting a Discord Bot on Repl.it](https://dev.to/fizal619/so-you-want-to-make-a-discord-bot-4f0n) to understand why we use the ```.env``` file and ```express``` package when hosting a Discord Bot on Repl.it.    
 
-## Scripts
+Rename the ```.env-sample``` to ```.env``` in the project directory and add your unique bot token.
 
-```npm install``` node dependencies.    
+### Scripts
+
+```npm install``` node modules.    
 
 ```npm run dev``` to run bot in development mode - automatically restart the bot every time there is a change in it's code (courtesy of [nodemon](https://nodemon.io/))    
 
