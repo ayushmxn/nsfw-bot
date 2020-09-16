@@ -1,7 +1,9 @@
 # Contributing Guide
 
-## Logistics
+## Issues
 
-Open an issue, describe the bug or feature. If the issue does not fit into any of our templates, create a blank issue.
+New issues will be of type ```type: bug```, ```type: feature``` or ```type: other```. They will initially be labeled ```status: discussion```. After a plan of action has been figured out for the issue, ```status: discussion``` will be removed and ```status: ready``` will be added. You can request to be assigned to issues which have the ```status: ready``` label.
 
-Pull request not referencing any features will not be considered.
+## Pull Request
+
+Fork the repo and follow the [project setup](https://github.com/ayushmxn/auto-bot/blob/master/.github/DOCUMENTATION.md#project-setup) instructions.
