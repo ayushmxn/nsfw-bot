@@ -8,7 +8,7 @@ app.listen(port, () => console.log(`Auto Bot is listening at port ${port}`));
 
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const prefix = "!auto";
+const prefix = process.env.PREFIX;
 
 client.on("message", function (message) {
   msg = message.content.split(' ');
