@@ -1,17 +1,19 @@
-require("dotenv").config();
+import dotenv from "dotenv";
+import discord from "discord.js";
+import express from "express";
 
-const express = require("express");
+dotenv.config();
+
 const app = express();
 const port = 3000;
 app.get((request, response) => { response.send("Auto Bot says hi."); });
 app.listen(port, () => console.log(`Auto Bot is listening at port ${port}`));
 
-const Discord = require("discord.js");
-const client = new Discord.Client();
-const prefix = process.env.PREFIX;
+const client: discord.Client = new discord.Client();
+const prefix: string | undefined = process.env.PREFIX;
 
-client.on("message", function (message) {
-	const msg = message.content.split(" ");
+client.on("message", function (message: any) {
+	const msg: Array<string> = message.content.split(" ");
 
 	if (message.author.bot) return;
 

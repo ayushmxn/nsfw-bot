@@ -9,9 +9,10 @@ npm v6.14.8 (recommended)
 
 ### Project
 
-```npm install``` to install node modules
-```npm run dev``` to run in your local environment
-```npm start``` to run indefinately on a production server
+```npm install``` to install node modules  
+```npm run lint``` to check for type, syntax and formatting errors  
+```npm run build``` to transpile into JavaScript  
+```npm start``` to run indefinately on a production server. Look at the [tutorials](###Tutorials) before doing this
 
 ### Configuration
 
