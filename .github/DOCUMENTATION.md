@@ -4,8 +4,8 @@
 
 ### Environment
 
-node v14 (recommended)  
-npm v6.14.8 (recommended)
+node v15 (recommended)  
+npm v7 (recommended)
 
 ### Project
 
