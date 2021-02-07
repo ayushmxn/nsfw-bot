@@ -2,7 +2,7 @@
 
 [![Run on Repl.it](https://repl.it/badge/github/ayushmxn/auto-bot)](https://repl.it/github/ayushmxn/auto-bot)  
 
-Auto Bot is meant to automate a lot of repetative tasks.
+Auto Bot is meant to automate a lot of repetative tasks. Also to learn more about Discord APIs, JavaScript, TypeScript, ESLint, WebPack, Babel, Rollup and more.
 
 ## Table of Contents
 
