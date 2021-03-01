@@ -1,2 +1,2 @@
 language = "bash"
-run = "cd bot; npm start"
+run = "npm install & npm run build & npm start"
