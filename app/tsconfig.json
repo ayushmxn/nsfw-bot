@@ -1,15 +1,13 @@
 {
     "compileOnSave": true,
     "compilerOptions": {
-        "module": "CommonJS",
-        "rootDir": "src",
-        "outDir": "bin",
+        "module": "ESNext",
         "moduleResolution": "node",
         "esModuleInterop": true,
         "allowSyntheticDefaultImports": true,
         "strict": true,
         "strictNullChecks": false,
-        "resolveJsonModule": true
+        "noImplicitAny": true
     },
     "include": [
         "src"

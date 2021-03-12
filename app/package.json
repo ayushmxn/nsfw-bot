@@ -4,19 +4,19 @@
   "description": "ASL project.",
   "scripts": {
     "lint": "",
-    "build": "tsc",
+    "build": "rollup --config",
     "test": "",
     "start": "node ./bin/index.js"
   },
   "dependencies": {
     "discord.js": "^12.3.1",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "dotenv": "^8.2.0"
   },
   "devDependencies": {
-    "@types/express": "^4.17.11",
+    "@rollup/plugin-typescript": "^8.2.0",
     "@types/node": "^14.14.22",
-    "@types/ws": "^7.4.0",
+    "rollup": "^2.41.2",
+    "tslib": "^2.1.0",
     "typescript": "^4.2.2"
   }
 }

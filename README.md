@@ -6,7 +6,7 @@
 
 ### Environment
 
-1. Node.js v15
+1. Node.js v15 (recommended)
 2. Discord.js v12
 
 ### Setup
