@@ -12,7 +12,7 @@
 ### Setup
 
 1. [Create a Discord Bot Account](https://discordpy.readthedocs.io/en/latest/discord.html)
-2. ```touch .env```  
+2. ```cd app && touch .env```  
 ```
 DISCORD_ACCESS_TOKEN=your_token_here
 ```
