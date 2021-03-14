@@ -12,13 +12,14 @@
 ### Setup
 
 1. [Create a Discord Bot Account](https://discordpy.readthedocs.io/en/latest/discord.html)
-2. ```cd app && touch .env```  
+2. ```cd app```  
+3. ```touch .env```
 ```
 DISCORD_ACCESS_TOKEN=your_token_here
 ```
-3. ```npm install```
-4. ```npm run build```
-5. ```npm start```
+4. ```npm install```
+5. ```npm run build```
+6. ```npm start```
 
 ## Authors
 
